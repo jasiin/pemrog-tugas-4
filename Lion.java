@@ -1,16 +1,15 @@
 public class Lion extends Animal {
-    int total;
 
     @Override
     public String getName() {
         return "Lion";
     }
 
-    public int Legs(int total) {
-        return total;
+    public int Total(int speed) {
+        return speed;
     }
 
-    public int Eyes(int total) {
-        return total;
+    public double Total(double weight) {
+        return weight;
     }
 }
